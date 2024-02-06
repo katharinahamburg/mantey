@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="img/medical.png">
+		<title>Praxis Dr. Frauke Mantey-Stiers - Praxis</title>
+		
+		<link rel="icon" href="img/favicon.png">
+
+		<link rel="stylesheet" href="styles.css">
+
+		
+		<!-- javascript -->
+		<!-- Einbindung html templates -->
+		<script src="include-html-templates.js"></script>
+
+		<!-- Funktion dropdown_menu -->
+		<script src="menu-toggle.js"></script>
+		
+
+
+	</head>
+	<body onload="includeHTML()">
+		<header>
+		<div w3-include-html="templates/header.html"></div>
+		</header>
+
+		
+		<div class="main">
+			
+			<div class="tresen-img">
+
+				
+			</div>
+
+			<div class="info">
+				<ul class="info-box info-border info-sprechzeiten">
+					<h3>Sprechzeiten</h3>
+					<li>Montag, Dienstag & Donnerstag: </li>
+					<li>08:00 - 12:00 Uhr // 16:00 - 18:00 Uhr </li>
+					<li></li>
+					<li>Mittwoch & Freitag: </li>
+					<li>08:00 - 12:00 Uhr</li>
+				</ul>	
+				<ul class="info-box info-border">
+					<h3>Rezepte</h3>
+					<li>Bitte bestellen Sie Rezepte für notwendige Medikation telefonisch bis 09:00 Uhr zur Abholung am gleichen Werktag.</li>
+					
+				</ul>
+
+				<ul class="info-box">
+					<h3>Notfall</h3>
+					<li>Im Notfall bieten wir Ihnen täglich nach vorheriger, telefonischer Absprache Termine zwischen 08:00 Uhr und 08:30 Uhr an.</li>
+					
+				</ul>
+
+			</div>
+		
+			<div class="praxis-text">
+					<div class="hello-text">
+						<h3>Ihre Praxis für Allgemeinmedizin</h3>
+						<p>Gern beraten und informieren wir Sie zu allen Angeboten. Jedoch:
+							Etliche Maßnahmen, die nicht in den Bereich der allgemeinärztlichen Betreuung fallen, werden oftmals nicht von den Krankenkassen übernommen - 
+							auch wenn sie entscheidend Gesundheit und Wohlbefinden fördern.</p>		
+					</div>
+					
+					<div class="praxis">
+						<img src="img/praxis.jpg" alt="praxis" style="height: 300px;"> 
+							<!--<a href="team.html" class="btn">Unser Team</a>-->
+					</div>
+			</div>
+		
+
+		
+	</div>
+		
+		<!-- footer -->
+			<div w3-include-html="templates/footer.html"></div>
+
+	</body>
+</html>
